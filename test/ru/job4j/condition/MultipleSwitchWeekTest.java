@@ -22,7 +22,7 @@ public class MultipleSwitchWeekTest {
     @Test
     public void whenDayIsMayThan0() {
         int result = MultipleSwitchWeek.numberOfDay("May");
-        int expected = 0;
+        int expected = -1;
         Assert.assertEquals(expected, result);
     }
 }
